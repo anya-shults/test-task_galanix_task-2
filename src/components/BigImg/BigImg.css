@@ -1,0 +1,52 @@
+.big-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.big-image__background {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.big-image__close {
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding: 0;
+  line-height: 100px;
+  font-size: 50px;
+  background-color: transparent;
+  color: white;
+  opacity: 0.5;
+  border: none;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.big-image__close:hover {
+  transition: all linear 0.1s;
+  background-color: black;
+  opacity: 0.3;
+}
+
+.big-image__current-image {
+  position: fixed;
+  margin: auto;
+  width: 90%;
+  transition: all linear 0.2s;
+}
+
+@media (min-width: 1140px) {
+  .big-image__current-image {
+    width: unset;
+  }
+}
