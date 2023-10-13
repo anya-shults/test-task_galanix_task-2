@@ -2,13 +2,15 @@ import React from 'react';
 import './App.css';
 import { Header } from './components/Header/Header';
 import { Photos } from './components/Photos/Photos';
+import { Footer } from './components/Footer/Footer';
 
 function App() {
   return (
-    <main className="App">
+    <div className="App">
       <Header />
       <Photos />
-    </main>
+      <Footer />
+    </div>
   );
 }
 
