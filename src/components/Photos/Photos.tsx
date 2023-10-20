@@ -92,6 +92,10 @@ export const Photos: React.FC = () => {
             </button>
           ) : null
         }
+        <div className="container__background">
+          <div className="container__background-blue"></div>
+          <div className="container__background-orange"></div>
+        </div>
       </div>
     </>
   );
