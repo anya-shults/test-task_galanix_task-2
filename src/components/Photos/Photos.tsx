@@ -53,7 +53,7 @@ export const Photos: React.FC = () => {
         <div className="photos__info">
           {
             `${date.getDate()}.${date.getMonth() + 1}.${date.getFullYear()}
-            ${date.toString().slice(-55, -49)}`
+            ${date.toTimeString().slice(0, 5)}`
           }
           {` Кількість картинок на сторінці: ${imagesName.length}`}
         </div>
