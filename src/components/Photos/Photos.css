@@ -1,5 +1,6 @@
 .photos {
   width: 100%;
+  min-height: calc(100vh - 127px - 134px - 242px);
 }
 
 .photos__info {
